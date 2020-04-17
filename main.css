@@ -7,9 +7,10 @@ body {
 }
 
 .nav-link {
-    color: rgb(255, 255, 255);
+    color: white;
+    text-shadow: 0 0 2px black;
 }
 
 .nav-link:hover {
-    color: rgb(200, 200, 200);
+    color: rgb(180, 240, 255);
 }
