@@ -1,0 +1,30 @@
+.header {
+    background-image: url('images/placeholder.png');
+    background-size: cover;
+    background-position: center;
+    height: 92vh;
+    min-height: 650px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+
+.header-summary {
+    background-color: rgba(0, 10, 0, 0.75);
+    color: white;
+
+    position: relative;
+    align-self: center;
+    width: 500px;
+
+    text-align: center;
+
+    padding: 10px;
+}
+
+.CTA-buttons {
+    display: block;
+    line-height: 40px;
+    justify-content: center;
+}

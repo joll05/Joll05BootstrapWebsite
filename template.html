@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/libraries/bootstrap-4.2.1-dist/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="/main.css">
+
+        <script src="/libraries/jquery-3.4.1.min.js"></script>
+        <script src="/libraries/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+        <script src="/main.js"></script>
     </head>
 
     <body>
@@ -24,8 +28,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/about">About</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="projectsDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                    <li class="nav-item dropdown hover-dropdown">
+                        <a class="nav-link dropdown-toggle" id="projectsDropdown" href="/projects" aria-haspopup="true" aria-expanded="false">Projects</a>
 
                         <div class="dropdown-menu" aria-labelledby="projectsDropdown">
                             <a class="dropdown-item" href="/projects/games">Games</a>
@@ -34,17 +38,14 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/devlogs">Devlogs</a> <!-- TODO: Replace link -->
+                        <a class="nav-link" href="/devlogs">Devlogs</a>
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav>        
 
-        <div class="content container-fluid">
+        <div class="content">
             
         </div>
-
-        <script src="/libraries/jquery-3.4.1.min.js"></script>
-        <script src="/libraries/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
     </body>
 </html>
