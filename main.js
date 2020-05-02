@@ -26,5 +26,5 @@ function GetParameter(name) {
     }
 
     //If it can't find it
-    return null;
+    return undefined;
 }

@@ -1,0 +1,14 @@
+.post {
+    display: none;
+    padding: 20px;
+}
+
+.post-title,
+.post-date {
+    display: inline;
+}
+
+.post-date {
+    color: rgba(140, 140, 140, 0.7);
+    margin: 10px;
+}

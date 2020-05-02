@@ -4,11 +4,14 @@
         <title>Joll05</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link rel="stylesheet" href="/libraries/bootstrap-4.2.1-dist/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="/main.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
 
         <script src="/libraries/jquery-3.4.1.min.js"></script>
         <script src="/libraries/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+        <script src="/libraries/marked.min.js"></script>
         <script src="/main.js"></script>
         <script src="index.js"></script>
     </head>
@@ -46,7 +49,20 @@
         </nav>        
 
         <div class="content">
-            
+            <div class="post-list">
+                <ul class="list-group">
+                    <!-- TODO: Generate post links with javascript -->
+                    <li class="list-group-item"><a href="?post=test">Test post</a></li>
+                </ul>
+            </div>
+            <div class="post">
+                <header class="post-header">
+                    <h1 class="post-title">Title</h1>
+                    <h6 class="post-date">Posted January 1 1970</h6>
+                </header>
+                <br>
+                <div class="post-content"></div>
+            </div>
         </div>
     </body>
 </html>
